@@ -1,0 +1,9 @@
+<div class="sidebar-item">
+  <div class="sidebar-title">标签</div>
+  <div class="sidebar-list">
+    {{ range $_, $taxonomy := .Site.Taxonomies.tags }}
+    <a href="{{ .Page.Permalink }}">{{.Page.Title}}({{ $taxonomy.Count }})
+    </a>
+    {{ end }}
+  </div>
+</div>

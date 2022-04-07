@@ -1,0 +1,8 @@
+<div class="sidebar-item">
+  <div class="sidebar-title">链接</div>
+  <div class="sidebar-list">
+    {{range .Site.Params.friends}}
+    <a href="{{.url}}">{{.title}}</a>
+    {{end}}
+  </div>
+</div>

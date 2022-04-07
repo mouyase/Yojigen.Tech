@@ -1,0 +1,45 @@
+{
+    "baseURL": "/",
+    "languageCode": "zh-cn",
+    "title": "四次元科技",
+    "theme": "yojigen-lite",
+    "paginate": 10,
+    "hasCJKLanguage": true,
+    "enableRobotsTXT": true,
+    "markup": {
+        "highlight": {
+            "anchorLineNos": false,
+            "codeFences": true,
+            "guessSyntax": true,
+            "hl_Lines": "",
+            "lineAnchors": "",
+            "lineNoStart": 1,
+            "lineNos": true,
+            "lineNumbersInTable": false,
+            "noClasses": true,
+            "noHl": false,
+            "style": "dracula",
+            "tabWidth": 2
+        }
+    },
+    "menu": {
+        "main": [{
+            "name": "关于",
+            "url": "/about/",
+            "weight": 999
+        }]
+    },
+    "params": {
+        "friends": [{
+            "title": "超能小紫",
+            "url": "https://www.mokeyjay.com/"
+        }]
+    },
+    "permalinks": {
+        "post": "post/:filename"
+    },
+    "taxonomies": {
+        "tag": "tags",
+        "category": "categories"
+    }
+}

@@ -1,0 +1,54 @@
+<!-- Pagination -->
+{{ $paginator := $.Paginator }}
+{{ if gt $paginator.TotalPages 1 }}
+<div id="pagination">
+    <div class="pagination-number">
+        <span>更多条目:</span>
+        {{ $.Scratch.Set "__paginator.ellipsed" false }}
+        {{ range $paginator.Pagers }}
+        {{ $right := sub .TotalPages .PageNumber }}
+        {{ $showNumber := or (le .PageNumber 1) (eq $right 0) }}
+        {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $paginator.PageNumber 3)) (lt .PageNumber (add $paginator.PageNumber 3)))  }}
+        {{ if $showNumber }}
+        {{ $.Scratch.Set "__paginator.ellipsed" false }}
+        {{ $.Scratch.Set "__paginator.shouldEllipse" false }}
+        {{ else }}
+        {{ $.Scratch.Set "__paginator.shouldEllipse" (not ($.Scratch.Get "__paginator.ellipsed") ) }}
+        {{ $.Scratch.Set "__paginator.ellipsed" true }}
+        {{ end }}
+        {{ if $showNumber }}
+        <span>
+            {{ if eq . $paginator }}
+            <b>[{{ .PageNumber }}]</b>
+            {{ else}}
+            <a href="{{ .URL }}">[{{ .PageNumber}}]</a>
+            {{ end }}
+        </span>
+        {{ else if ($.Scratch.Get "__paginator.shouldEllipse") }}
+        <span> ... </span>
+        {{ end }}
+        {{ end }}
+    </div>
+    <div class="pagination-arrow">
+        <span>
+            {{ if not $paginator.HasPrev }}
+            <span style="color: #999999;">« 上一页</span>
+            {{else}}
+            <a href="{{ $paginator.Prev.URL }}">
+                <span>« 上一页</span>
+            </a>
+            {{ end }}
+        </span>
+        <span> · </span>
+        <span>
+            {{ if not $paginator.HasNext }}
+            <span style="color: #999999;">下一页 »</span>
+            {{else}}
+            <a href="{{ $paginator.Next.URL }}">
+                <span>下一页 »</span>
+            </a>
+            {{ end }}
+        </span>
+    </div>
+</div>
+{{ end }}
