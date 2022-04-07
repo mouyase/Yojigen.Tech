@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
     <title>{{ if .Title }}{{ .Title }}-{{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="keywords" content="{{ if gt .Keywords 0 }}{{ range .Keywords}}{{.}} {{end}}{{else}}{{ range .Site.Params.Keywords}}{{.}} {{end}}{{end}}">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/script.js"></script>
 </head>

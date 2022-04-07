@@ -3,7 +3,7 @@
     "languageCode": "zh-cn",
     "title": "四次元科技",
     "theme": "yojigen-lite",
-    "paginate": 10,
+    "paginate": 6,
     "hasCJKLanguage": true,
     "enableRobotsTXT": true,
     "markup": {
@@ -30,6 +30,14 @@
         }]
     },
     "params": {
+        "keywords": [
+            "四次元科技",
+            "某亚瑟",
+            "Yojigen",
+            "二次元",
+            "三次元",
+            "四次元"
+        ],
         "friends": [{
                 "title": "超能小紫",
                 "url": "https://www.mokeyjay.com/"
