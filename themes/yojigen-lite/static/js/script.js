@@ -25,8 +25,18 @@ const setImageSrcset = () => {
     }
 }
 
+const loadScript = (url, cb, isMoudule) => {
+    let script = document.createElement('script');
+    script.src = url;
+    if (cb) script.onload = cb;
+    if (isMoudule) script.type = 'module';
+    script.async = true;
+    document.body.appendChild(script);
+}
+
 window.onload = () => {
     setTimeout(() => {
         setImageSrcset()
+        loadScript('https://hm.baidu.com/hm.js?d3ff7ea286266918b251a247df20c5a9')
     }, 0)
 }

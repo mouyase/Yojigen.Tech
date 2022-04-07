@@ -31,9 +31,22 @@
     },
     "params": {
         "friends": [{
-            "title": "超能小紫",
-            "url": "https://www.mokeyjay.com/"
-        }]
+                "title": "超能小紫",
+                "url": "https://www.mokeyjay.com/"
+            },
+            {
+                "title": "初之音",
+                "url": "https://www.himiku.com/"
+            },
+            {
+                "title": "GamerNoTitle",
+                "url": "https://bili33.top/"
+            },
+            {
+                "title": "惶心博客",
+                "url": "https://huangxin.dev//"
+            }
+        ]
     },
     "permalinks": {
         "post": "post/:filename"
