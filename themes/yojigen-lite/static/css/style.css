@@ -232,5 +232,42 @@ blockquote {
     padding-right: 8px;
     padding-bottom: 8px;
     border-left: 8px solid #ccc;
-    background-color: #eeeeee
+    background-color: #eee
+}
+
+code:not(.highlight code) {
+    background-color: #eee;
+    padding: 2px 8px;
+    text-align: center;
+    border-radius: 4px;
+    color: #666;
+}
+
+.YT-FOW {
+    background-color: black;
+    color: black;
+    text-shadow: none;
+}
+
+.YT-FOW:hover,
+.YT-FOW:active {
+    transition: color .2s linear;
+    color: white
+}
+
+.YT-FOW a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.YT-FOW a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.YT-FOW a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: color .2s linear;
 }

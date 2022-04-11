@@ -7,6 +7,11 @@
     "hasCJKLanguage": true,
     "enableRobotsTXT": true,
     "markup": {
+        "goldmark": {
+            "renderer": {
+                "unsafe": true
+            }
+        },
         "highlight": {
             "anchorLineNos": false,
             "codeFences": true,
@@ -15,7 +20,7 @@
             "lineAnchors": "",
             "lineNoStart": 1,
             "lineNos": true,
-            "lineNumbersInTable": false,
+            "lineNumbersInTable": true,
             "noClasses": true,
             "noHl": false,
             "style": "dracula",
