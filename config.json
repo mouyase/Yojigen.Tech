@@ -3,7 +3,7 @@
     "languageCode": "zh-cn",
     "title": "四次元科技",
     "theme": "yojigen-lite",
-    "paginate": 6,
+    "paginate": 5,
     "hasCJKLanguage": true,
     "enableRobotsTXT": true,
     "markup": {
