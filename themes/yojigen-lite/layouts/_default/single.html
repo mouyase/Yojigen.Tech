@@ -27,6 +27,9 @@
                     {{.Content}}
                 </div>
             </div>
+            {{ if and (eq .Type "post") .IsPage }}
+            {{- partial "disqus.html" . -}}
+            {{end}}
         </div>
         <div id="sidebar">
             {{- partial "side.html" . -}}

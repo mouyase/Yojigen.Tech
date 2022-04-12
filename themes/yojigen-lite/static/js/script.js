@@ -34,9 +34,36 @@ const loadScript = (url, cb, isMoudule) => {
     document.body.appendChild(script);
 }
 
+const loadCss = (url, cb) => {
+    let css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.type = 'text/css'
+    css.href = url;
+    if (cb) css.onload = cb;
+    document.getElementsByTagName('head')[0].appendChild(css);
+}
+
+const init = () => {
+    setImageSrcset()
+    loadScript('https://hm.baidu.com/hm.js?d3ff7ea286266918b251a247df20c5a9')
+    loadScript('/libs/disqus/disqusjs.js', () => {
+        const dsqjs = new DisqusJS({
+            shortname: 'yojigen',
+            siteName: '四次元科技',
+            identifier: document.location.origin + document.location.pathname + document.location.search,
+            url: document.location.origin + document.location.pathname + document.location.search,
+            title: document.title,
+            api: 'https://disqus.skk.moe/disqus/',
+            apikey: 'X6iJtToKn7ac9o1j0bcpLt4jAGyatmmcNksGir9CJp3VTOgjIH3WMIGtti240Ktd',
+            admin: 'mouyase',
+            adminLabel: ''
+        });
+    })
+    loadCss('/libs/disqus/disqusjs.css')
+}
+
 window.onload = () => {
     setTimeout(() => {
-        setImageSrcset()
-        loadScript('https://hm.baidu.com/hm.js?d3ff7ea286266918b251a247df20c5a9')
+        init()
     }, 0)
 }
