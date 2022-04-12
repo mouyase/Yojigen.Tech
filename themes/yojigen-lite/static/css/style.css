@@ -60,10 +60,12 @@ a:hover {
     text-align: left;
     max-width: 1024px;
     overflow: hidden;
+    padding: 0 1.5em;
+    display: flex;
+    flex-direction: row;
 }
 
 #content {
-    float: left;
     width: 74%;
     margin-right: 2%;
     display: flex;
@@ -71,7 +73,6 @@ a:hover {
 }
 
 #sidebar {
-    float: left;
     width: 24%;
     display: flex;
     flex-direction: column;
@@ -185,9 +186,9 @@ a:hover {
 }
 
 .header-menu {
-    position: absolute;
+    position: relative;
     width: auto;
-    right: 8px;
+    right: 2px;
     bottom: 0px;
     font-family: Arial;
     color: #ffffff;
@@ -270,4 +271,17 @@ code:not(.highlight code) {
     color: white;
     text-decoration: underline;
     transition: color .2s linear;
+}
+
+@media screen and (max-width: 640px) {
+    #sidebar {
+        display: none;
+    }
+
+    #content {
+        width: 100%;
+    }
+    #header-title {
+        font-size: 36px;
+    }
 }
