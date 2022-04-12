@@ -245,6 +245,10 @@ code:not(.highlight code) {
     color: #666;
 }
 
+pre {
+    overflow-x: auto;
+}
+
 .YT-FOW {
     background-color: black;
     color: black;
@@ -282,6 +286,7 @@ code:not(.highlight code) {
     #content {
         width: 100%;
     }
+
     #header-title {
         font-size: 36px;
     }
