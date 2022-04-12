@@ -52,6 +52,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: end;
+    width: 100%;
 }
 
 .container {
