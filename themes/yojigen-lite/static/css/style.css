@@ -238,11 +238,12 @@ blockquote {
 }
 
 code:not(.highlight code) {
-    background-color: #eee;
-    padding: 2px 8px;
-    text-align: center;
-    border-radius: 4px;
-    color: #666;
+    margin: 0 .5em;
+    padding: .1em .5em .1em;
+    font-size: 85%;
+    background: rgba(150,150,150,.1);
+    border: 1px solid rgba(100,100,100,.2);
+    border-radius: 2px;
 }
 
 pre {
