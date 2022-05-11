@@ -52,13 +52,13 @@ const init = () => {
             const dsqjs = new DisqusJS({
                 shortname: 'yojigen',
                 siteName: '四次元科技',
-                identifier: document.location.origin + document.location.pathname + document.location.search,
+                identifier: document.location.pathname + document.location.search,
                 url: document.location.origin + document.location.pathname + document.location.search,
                 title: document.title,
                 api: 'https://disqus.skk.moe/disqus/',
                 apikey: 'X6iJtToKn7ac9o1j0bcpLt4jAGyatmmcNksGir9CJp3VTOgjIH3WMIGtti240Ktd',
                 admin: 'mouyase',
-                adminLabel: ''
+                adminLabel: '博主'
             });
         }
     })
