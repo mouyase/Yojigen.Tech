@@ -29,6 +29,11 @@
     },
     "menu": {
         "main": [{
+            "name": "监控",
+            "url": "https://monitor.yojigen.tech/",
+            "weight": 998
+        },
+        {
             "name": "关于",
             "url": "/about/",
             "weight": 999

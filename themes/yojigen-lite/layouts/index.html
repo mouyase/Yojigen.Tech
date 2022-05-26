@@ -12,7 +12,7 @@
             <div class="entry">
                 <div class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
                 <div class="entry-title-underline"></div>
-                <div class="entry-info">{{ .Date.Format "2006-01-02 03:04:05"}}
+                <div class="entry-info">{{ .Date.Format "2006-01-02 15:04:05"}}
                     {{ range $index, $tag := .Params.tags}}
                     {{ $.Scratch.Set "__tags.last" $index }}
                     {{end}}
