@@ -37,12 +37,14 @@ a:hover {
 }
 
 #header-title {
-    position: relative;
-    left: 2px;
-    top: 0;
+    margin-bottom: -8px;
     font-size: 48px;
-    font-family: Arial;
-    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 1px #003d60;
+}
+
+#header-sub-title {
+    margin-left: 8px;
     text-decoration: none;
     text-shadow: 0 1px #003d60;
 }
@@ -53,6 +55,14 @@ a:hover {
     justify-content: space-between;
     align-items: end;
     width: 100%;
+}
+
+#header-title-box {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    font-family: Arial;
+    color: #ffffff;
 }
 
 .container {
