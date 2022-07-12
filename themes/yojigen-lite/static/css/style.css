@@ -37,6 +37,7 @@ a:hover {
 }
 
 #header-title {
+    color: "white";
     margin-bottom: -8px;
     font-size: 48px;
     text-decoration: none;
@@ -44,6 +45,7 @@ a:hover {
 }
 
 #header-sub-title {
+    color: "white";
     margin-left: 8px;
     text-decoration: none;
     text-shadow: 0 1px #003d60;
@@ -62,7 +64,6 @@ a:hover {
     flex-direction: row;
     align-items: end;
     font-family: Arial;
-    color: #ffffff;
 }
 
 .container {
