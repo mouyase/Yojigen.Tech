@@ -37,7 +37,7 @@ a:hover {
 }
 
 #header-title {
-    color: "white";
+    color: white;
     margin-bottom: -8px;
     font-size: 48px;
     text-decoration: none;
@@ -45,7 +45,7 @@ a:hover {
 }
 
 #header-sub-title {
-    color: "white";
+    color: white;
     margin-left: 8px;
     text-decoration: none;
     text-shadow: 0 1px #003d60;
