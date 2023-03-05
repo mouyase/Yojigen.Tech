@@ -6,7 +6,7 @@ const setImageSrcset = () => {
         if (`${image.className}`.indexOf('loading') !== -1) {
             if (image.attributes['data-srcset']) {
                 // image.srcset = image.attributes['data-srcset'].textContent.replace(/i\.imgur\.com/, 'image.yojigen.tech')
-                image.srcset = image.attributes['data-srcset']
+                image.srcset = image.attributes['data-srcset'].textContent
                 let isNotLoad = false
                 const onNotLoad = () => {
                     isNotLoad = true

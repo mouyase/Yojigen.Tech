@@ -1,0 +1,34 @@
+{
+    "baseURL": "/",
+    "languageCode": "zh-cn",
+    "hasCJKLanguage": true,
+    "enableRobotsTXT": true,
+    "markup": {
+        "goldmark": {
+            "renderer": {
+                "unsafe": true
+            }
+        },
+        "highlight": {
+            "anchorLineNos": false,
+            "codeFences": true,
+            "guessSyntax": true,
+            "hl_Lines": "",
+            "lineAnchors": "",
+            "lineNoStart": 1,
+            "lineNos": true,
+            "lineNumbersInTable": false,
+            "noClasses": true,
+            "noHl": false,
+            "style": "dracula",
+            "tabWidth": 2
+        }
+    },
+    "permalinks": {
+        "post": "post/:filename"
+    },
+    "taxonomies": {
+        "tag": "tags",
+        "category": "categories"
+    }
+}

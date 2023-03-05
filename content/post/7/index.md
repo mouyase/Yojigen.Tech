@@ -12,14 +12,14 @@ keywords:
   - Windows 10
 ---
 
-![](https://i.imgur.com/r5bF6Iz.jpg)
+![](r5bF6Iz.jpg)
 
 之前因为在自己这台电脑上需要跑一跑Docker，于是安装Docker的时候就被打开了Win10的Hyper-V，然而明日方舟新活动刚刚开起来，这就得上模拟器帮忙肝活动了，结果一开，蓝屏……
 
 ## 首先
 先去关闭Hyper-V，这个大家都知道了
 
-![](https://i.imgur.com/LQtqhcd.jpg)
+![](LQtqhcd.jpg)
 
 ## 然后（坑）
 
