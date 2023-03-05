@@ -19,7 +19,7 @@ keywords:
 
 >Gitea的首要目标是创建一个极易安装，运行非常快速，安装和使用体验良好的自建 Git 服务。我们采用Go作为后端语言，这使我们只要生成一个可执行程序即可。并且他还支持跨平台，支持 Linux, macOS 和 Windows 以及各种架构，除了x86，amd64，还包括 ARM 和 PowerPC。
 
-![](https://image.yojigen.tech/aVW1fT2.jpg)
+![](/post/24/1.jpg)
 
 因为是用Go开发，Gitea的主要程序就是一个原生的二进制可执行文件，而且Gitea可以使用SQLite当做数据库，这样它的资源占用比Gitlab这种Java开发需要虚拟机的要少的多，甚至他在官网上就写着用树莓派就能运行，这不是巧了吗。
 

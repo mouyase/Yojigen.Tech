@@ -28,21 +28,23 @@
         }
     },
     "menu": {
-        "main": [{
-            "name": "网盘",
-            "url": "https://pan.yojigen.tech/",
-            "weight": 997
-        },
-        {
-            "name": "监控",
-            "url": "https://monitor.yojigen.tech/",
-            "weight": 998
-        },
-        {
-            "name": "关于",
-            "url": "/about/",
-            "weight": 999
-        }]
+        "main": [
+            {
+                "name": "网盘",
+                "url": "https://pan.yojigen.tech/",
+                "weight": 997
+            },
+            {
+                "name": "监控",
+                "url": "https://monitor.yojigen.tech/",
+                "weight": 998
+            },
+            {
+                "name": "关于",
+                "url": "/about/",
+                "weight": 999
+            }
+        ]
     },
     "params": {
         "subTitle": "科技、动漫、生活、学习以及一切",
@@ -54,7 +56,8 @@
             "三次元",
             "四次元"
         ],
-        "friends": [{
+        "friends": [
+            {
                 "title": "超能小紫",
                 "url": "https://www.mokeyjay.com/"
             },
@@ -70,7 +73,12 @@
                 "title": "惶心博客",
                 "url": "https://huangxin.dev//"
             }
-        ]
+        ],
+        "icp": {
+            "url": "https://icp.gov.moe/?keyword=20229779",
+            "text": "萌ICP备20229779号"
+        },
+        "initialYear": "2015"
     },
     "permalinks": {
         "post": "post/:filename"
