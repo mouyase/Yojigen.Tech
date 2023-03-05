@@ -13,7 +13,7 @@ keywords:
   - Switch
 ---
 
-![](https://i.imgur.com/OqTHKf2.jpg)
+![](OqTHKf2.jpg)
 
 Cover: [しずりんかわいい - 四葉はる@Pixiv](https://www.pixiv.net/artworks/69449592)
 
@@ -31,16 +31,16 @@ Cover: [しずりんかわいい - 四葉はる@Pixiv](https://www.pixiv.net/art
 
 明明买的时候找了一家发货地是北京的店，就想可以早点收到，结果不知道快递经历了什么，三天才到我的手上……于是赶紧迫不及待的打开了这个小盒子。
 
-![](https://i.imgur.com/f67elJU.jpg)
+![](f67elJU.jpg)
 
-![](https://i.imgur.com/rgC6MN6.jpg)
+![](rgC6MN6.jpg)
 
 明明八位堂是个中国公司，不过这个小盒子上倒是一个中国字都没有，颇有一副山寨货的气质。
 
-![](https://i.imgur.com/QyN8B15.jpg)
+![](QyN8B15.jpg)
 打开盒子，可以看到我们的转换器本体，一个马里奥里砖块风格的，看起来像是一个U盘的小玩意。
 
-![](https://i.imgur.com/41f4siT.jpg)
+![](41f4siT.jpg)
 
 这个东西大小和U盘也是非常的接近，拿在手里面还是很小的，上面这个盖子取下来之后并没有收纳的方式，所以估计这个盖子哪天应该也会和很多U盘盖子一样神秘失踪……
 

@@ -12,14 +12,14 @@ keywords:
   - Chrome
 ---
 
-![](https://i.imgur.com/eRayOjp.jpg)
+![](eRayOjp.jpg)
 
 前几天有人爆出 [**某些公司通过Chrome插件对用户信息进行采集**](https://weibo.com/2352539175/I0IcYxfFw "某些公司通过Chrome插件对用户信息进行采集")，正在使用360极速浏览器的我脸色逐渐变得难看了起来（物理上的）。思考许久后决定去试吃比Chrome还干净，比EDGE更智能的Chromium。
 
 ## 安装
 因为本身Chromium是开源项目，所以网上一般找到的都是源代码，不过经过我的搜索之后，我发现了[https://chromium.woolyss.com](https://chromium.woolyss.com)这个网站。
 
-![](https://i.imgur.com/InFB6F4.jpg)
+![](InFB6F4.jpg)
 
 
 原谅色的就是Stable版本，建议下载。
@@ -73,6 +73,6 @@ Chromium默认是没有Flash插件的，虽然绝大多数时间都用不到Flas
  - 然后选择**Opera and Chromium - PPAPI**的类型后，下载安装(记得取消右边的迈克菲杀毒)
  - 重启Chromium
 
-![](https://i.imgur.com/VEkEwLd.jpg)
+![](VEkEwLd.jpg)
 
 这样就可以使用Flash了。

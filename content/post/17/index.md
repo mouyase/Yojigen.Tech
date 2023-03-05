@@ -13,13 +13,13 @@ keywords:
   - GlobalSSH
 ---
 
-![](https://i.imgur.com/wrx9lLN.jpg)
+![](wrx9lLN.jpg)
 
 
 Cover: [桜 - マシマサキ@Pixiv](https://www.pixiv.net/artworks/80518034)
 
 >最新更新，UCloud云计算团队于2020年5月19日发布产品变更通知，今后只有UCloud旗下的服务器可以使用这个功能了。
->![](https://i.imgur.com/tqflrw1.jpg)
+>![](tqflrw1.jpg)
 
 ## 官方介绍
 >GlobalSSH是一款致力于提高跨国远程管理服务器效率的产品，旨在解决因为跨国网络不稳定，通过远程管理服务器时，经常会出现卡顿、连接失败、传输速度较慢等现象。运维研发人员在使用本产品后，可以提高，极大程度的减少卡顿、连接失败的情况发生，提高运维工作的效率。
@@ -34,11 +34,11 @@ Cover: [桜 - マシマサキ@Pixiv](https://www.pixiv.net/artworks/80518034)
 
 点击创建，填写服务器的IP和需要加速的SSH端口，然后可以选择加速区域，这里选择离服务器所在地最近的就可以。
 
-![](https://i.imgur.com/ympRvxz.jpg)
+![](ympRvxz.jpg)
 
 可以选择的加速区一共有7个。
 
-![](https://i.imgur.com/J4ykArd.jpg)
+![](J4ykArd.jpg)
 
 创建完成后，系统会发放一个`[服务器IP].ipssh.net`这样的域名。之后只要在SSH连接的时候，使用这个域名即可达到加速的效果。
 

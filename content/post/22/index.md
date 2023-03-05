@@ -29,7 +29,7 @@ keywords:
 
 分流下载地址：[TSFTool 0.9.2.0.zip](https://pan.yojigen.tech/Software/Windows/TSFTool/TSFTool%200.9.2.0.zip "TSFTool 0.9.2.0.zip")
 
-![](https://i.imgur.com/9OWt1lg.png)
+![](9OWt1lg.png)
 
 ## 使用方式
 ### 设置默认输入法为美式键盘

@@ -11,7 +11,7 @@ keywords:
   - 生存指南
 ---
 
-![](https://i.imgur.com/Vvk4DBT.jpg)
+![](Vvk4DBT.jpg)
 
 ## 前言
 
@@ -19,7 +19,7 @@ keywords:
 
 ## 效果演示
 
-![](https://i.imgur.com/yePSrTw.jpg)
+![](yePSrTw.jpg)
 
 ## 原材料
 

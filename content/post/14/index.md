@@ -13,7 +13,7 @@ keywords:
   - macOS
 ---
 
-![](https://i.imgur.com/XhkECip.jpg)
+![](XhkECip.jpg)
 
 <!-- more -->
 
@@ -25,7 +25,7 @@ Cover: [華如桃李 - 豆の素@Pixiv](https://www.pixiv.net/artworks/79500654)
 
 ## 效果演示
 
-![](https://i.imgur.com/wR0hyYc.png)
+![](wR0hyYc.png)
 
 ## 搭建过程
 
@@ -79,7 +79,7 @@ sudo brew services restart dnscrypt-proxy
 
 之后再把网络设置里的DNS地址修改为`127.0.0.1`，应用之后就可以享受无污染的DNS了。
 
-![](https://i.imgur.com/1gdXZUW.png)
+![](1gdXZUW.png)
 
 执行过上面修改hosts的指令的话建议执行这个清除hosts
 

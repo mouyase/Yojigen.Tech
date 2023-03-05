@@ -4,29 +4,6 @@
     "title": "四次元科技",
     "theme": "yojigen-lite",
     "paginate": 5,
-    "hasCJKLanguage": true,
-    "enableRobotsTXT": true,
-    "markup": {
-        "goldmark": {
-            "renderer": {
-                "unsafe": true
-            }
-        },
-        "highlight": {
-            "anchorLineNos": false,
-            "codeFences": true,
-            "guessSyntax": true,
-            "hl_Lines": "",
-            "lineAnchors": "",
-            "lineNoStart": 1,
-            "lineNos": true,
-            "lineNumbersInTable": false,
-            "noClasses": true,
-            "noHl": false,
-            "style": "dracula",
-            "tabWidth": 2
-        }
-    },
     "menu": {
         "main": [
             {
@@ -71,7 +48,7 @@
             },
             {
                 "title": "惶心博客",
-                "url": "https://huangxin.dev//"
+                "url": "https://huangxin.dev/"
             }
         ],
         "icp": {
@@ -79,12 +56,5 @@
             "text": "萌ICP备20229779号"
         },
         "initialYear": "2015"
-    },
-    "permalinks": {
-        "post": "post/:filename"
-    },
-    "taxonomies": {
-        "tag": "tags",
-        "category": "categories"
     }
 }

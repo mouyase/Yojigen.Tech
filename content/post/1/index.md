@@ -15,7 +15,7 @@ keywords:
   - Java
 ---
 
-![](https://i.imgur.com/n93SgFq.jpg)
+![](1.jpg)
 
 ## 为什么需要OracleJDK的替代品
 
@@ -40,17 +40,17 @@ keywords:
 
 ## Amazon Corretto
 
-![](https://i.imgur.com/CTCOqBm.jpg)
+![](2.jpg)
 
 这货也是我无意中发现的，本来以为和Redhat发布的那种OpenJDK的二进制一样，也是只有x64不含JRE什么的，结果点进去一看，该有的东西全都有，可以说非常接近OracleJDK现在的状态了。
 
-![](https://i.imgur.com/HXhCSwN.jpg)
+![](3.jpg)
 
 其次目前Amazon Corretto同时对JDK 8和JDK 11进行维护更新，至少不会有太大的兼容性问题。
 
 不管怎么说，就决定是你了。
 
-![](https://i.imgur.com/f8sJtf4.jpg)
+![](4.jpg)
 
 ## 官方地址
 
