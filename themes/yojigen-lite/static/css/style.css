@@ -183,21 +183,21 @@ a:hover {
     flex-direction: column;
 }
 
-.header-menu a {
+#header-menu a {
     color: #ffffff;
 }
 
-.header-menu a:visited {
+#header-menu a:visited {
     color: #ffffff;
     text-decoration: none;
 }
 
-.header-menu a:hover {
+#header-menu a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
 
-.header-menu {
+#header-menu {
     position: relative;
     width: auto;
     right: 2px;
@@ -252,13 +252,26 @@ code:not(.highlight code) {
     margin: 0 .5em;
     padding: .1em .5em .1em;
     font-size: 85%;
-    background: rgba(150,150,150,.1);
-    border: 1px solid rgba(100,100,100,.2);
+    background: rgba(150, 150, 150, .1);
+    border: 1px solid rgba(100, 100, 100, .2);
     border-radius: 2px;
 }
 
 pre {
     overflow-x: auto;
+}
+
+.single.entry-title {
+    font-family: Arial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial;
 }
 
 .YT-FOW {
@@ -301,5 +314,25 @@ pre {
 
     #header-title {
         font-size: 36px;
+    }
+
+    #header-title-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #header-sub-title {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    #header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #header-menu {
+        margin-top: 8px;
+        right: 0;
     }
 }
