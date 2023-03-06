@@ -1,44 +1,29 @@
-<!DOCTYPE html>
-<html>
-{{ partial "head.html" . }}
+{{ define "content" }}
+{{ $paginator := .Paginate (where (where .Site.Pages "Type" "post") "IsPage" true) }}
 
-<body>
-    {{ partial "header.html" . }}
-    <div class="container">
-        <div id="content">
-            {{ $paginator := .Paginate (where (where .Site.Pages "Type" "post") "IsPage" true) }}
-
-            {{ range $paginator.Pages }}
-            <div class="entry">
-                <div class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-                <div class="entry-title-underline"></div>
-                <div class="entry-info">{{ .Date.Format "2006-01-02 15:04:05"}}
-                    {{ range $index, $tag := .Params.tags}}
-                    {{ $.Scratch.Set "__tags.last" $index }}
-                    {{end}}
-                    {{ range $index, $tag := .Params.tags}}
-                    {{if eq $index 0}}
-                    · 标签:
-                    {{end}}
-                    <a href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{$tag}}</a>
-                    {{$last := $.Scratch.Get "__tags.last"}}
-                    {{if not (eq $index $last)}}
-                    ,
-                    {{end}}
-                    {{end}}
-                </div>
-                <div class="entry-contents">
-                    {{.Content}}
-                </div>
-            </div>
-            {{ end }}
-            {{ partial "pagination.html" . }}
-        </div>
-        <div id="sidebar">
-            {{- partial "side.html" . -}}
-        </div>
+{{ range $paginator.Pages }}
+<div class="entry">
+    <div class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+    <div class="entry-title-underline"></div>
+    <div class="entry-info">{{ .Date.Format "2006-01-02 15:04:05"}}
+        {{ range $index, $tag := .Params.tags}}
+        {{ $.Scratch.Set "__tags.last" $index }}
+        {{end}}
+        {{ range $index, $tag := .Params.tags}}
+        {{if eq $index 0}}
+        · 标签:
+        {{end}}
+        <a href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{$tag}}</a>
+        {{$last := $.Scratch.Get "__tags.last"}}
+        {{if not (eq $index $last)}}
+        ,
+        {{end}}
+        {{end}}
     </div>
-    {{ partial "footer.html" . }}
-</body>
-
-</html>
+    <div class="entry-contents">
+        {{.Content}}
+    </div>
+</div>
+{{ end }}
+{{ partial "pagination.html" . }}
+{{ end }}
