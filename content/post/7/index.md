@@ -2,9 +2,11 @@
 title: 解决Win10开启Hyper-V导致的安卓模拟器蓝屏问题
 date: 2019-08-28 10:10:00
 categories: 
-  - 技术
+  - 科技
+  - 分享
 tags:
   - Windows
+  - Hyper-V
 keywords: 
   - 虚拟机
   - 蓝屏

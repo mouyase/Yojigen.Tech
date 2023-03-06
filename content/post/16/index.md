@@ -5,6 +5,7 @@ categories:
   - 分享
 tags:
   - 二次元
+  - ASMR
 keywords: 
   - 同人音声
   - ASMR

@@ -2,8 +2,10 @@
 title: 低配VPS上的MySQL优化
 date: 2019-08-05 09:51:00
 categories: 
-  - 技术
+  - 建站
 tags:
+  - MySQL
+  - 宝塔
   - 服务器
 keywords: 
   - 运维

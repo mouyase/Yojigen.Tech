@@ -5,6 +5,8 @@ categories:
   - 游戏
 tags:
   - Steam
+  - Terraria
+  - 沙盒游戏
   - 联机游戏
 keywords: 
   - 泰拉瑞亚

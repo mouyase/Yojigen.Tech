@@ -2,7 +2,7 @@
 title: 关于Pixiv第三方客户端无法登陆问题
 date: 2019-09-05 10:40:00
 categories: 
-  - 技术
+  - 开发
 tags:
   - Pixiv
 keywords: 

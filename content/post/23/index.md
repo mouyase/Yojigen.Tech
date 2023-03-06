@@ -2,10 +2,11 @@
 title: 搭建私人低功耗服务器——如何将树莓派的系统装进USB设备
 date: 2022-05-24 16:42:00
 categories: 
-  - 技术
+  - 科技
 tags:
   - 服务器
   - Linux
+  - 树莓派
 keywords: 
   - 树莓派
   - Linux

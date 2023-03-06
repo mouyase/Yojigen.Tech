@@ -2,7 +2,8 @@
 title: Web前端开发面试题整理
 date: 2021-03-30 15:39:00
 categories: 
-  - 技术
+  - 分享
+  - 开发
 tags:
   - 前端
   - JavaScript

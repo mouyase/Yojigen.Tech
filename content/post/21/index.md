@@ -2,7 +2,7 @@
 title: 关于Nginx的一些骚操作
 date: 2021-07-12 10:32:00
 categories: 
-  - 技术
+  - 建站
 tags:
   - Nginx
 keywords: 

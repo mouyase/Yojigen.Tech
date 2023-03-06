@@ -2,7 +2,10 @@
 title: AndroidStudio推荐使用的.gitignore文件配置
 date: 2019-04-01 22:49:00
 categories: 
-  - 技术
+  - 开发
+tags:
+  - Android
+  - IDE
 keywords: 
   - Android
   - 版本管理

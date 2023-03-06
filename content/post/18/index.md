@@ -3,7 +3,10 @@ title: 用DS4当全平台手柄——八位堂手柄转换器体验
 date: 2020-05-01 12:50:00
 categories: 
   - 分享
+  - 科技
+  - 游戏
 tags:
+  - PS4
   - 游戏配件
   - 游戏主机
 keywords: 
