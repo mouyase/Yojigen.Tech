@@ -55,6 +55,7 @@
             "url": "https://icp.gov.moe/?keyword=20229779",
             "text": "萌ICP备20229779号"
         },
-        "initialYear": "2015"
+        "initialYear": "2015",
+        "cdn": "cdn.yojigen.tech"
     }
 }

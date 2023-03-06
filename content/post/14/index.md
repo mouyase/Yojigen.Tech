@@ -13,7 +13,7 @@ keywords:
   - macOS
 ---
 
-![](XhkECip.jpg)
+![](1.jpg)
 
 <!-- more -->
 

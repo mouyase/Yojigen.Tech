@@ -11,7 +11,7 @@ keywords:
   - AndroidStudio
 ---
 
-{{< alert "现在推荐直接用IDE的.ignore插件了，非常简单好用" success >}}
+{{<alert "现在推荐直接用IDE的.ignore插件了，非常简单好用" success>}}
 
 ```cfg
 ### Gradle template

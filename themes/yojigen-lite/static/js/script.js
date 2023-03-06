@@ -5,8 +5,11 @@ const setImageSrcset = () => {
         let image = images[i]
         if (`${image.className}`.indexOf('loading') !== -1) {
             if (image.attributes['data-srcset']) {
-                // image.srcset = image.attributes['data-srcset'].textContent.replace(/i\.imgur\.com/, 'image.yojigen.tech')
-                image.srcset = image.attributes['data-srcset'].textContent
+                if (`${window.location.host}`.indexOf("localhost") === -1 && !!config.cdn) {
+                    image.srcset = image.attributes['data-srcset'].textContent.replace(`${window.location.host}`, config.cdn)
+                } else {
+                    image.srcset = image.attributes['data-srcset'].textContent
+                }
                 let isNotLoad = false
                 const onNotLoad = () => {
                     isNotLoad = true
@@ -49,7 +52,7 @@ const init = () => {
     loadScript('https://hm.baidu.com/hm.js?d3ff7ea286266918b251a247df20c5a9')
     loadScript('/libs/disqus/disqusjs.js', () => {
         const disqusDiv = document.getElementById('disqus_thread')
-        if(disqusDiv){
+        if (disqusDiv) {
             const dsqjs = new DisqusJS({
                 shortname: 'yojigen',
                 siteName: '四次元科技',
