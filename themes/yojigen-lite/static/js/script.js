@@ -1,13 +1,12 @@
 const setImageSrcset = () => {
-    console.log(111,config);
     const gif = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
     let images = document.getElementsByTagName('img')
     for (let i = 0; i < images.length; i++) {
         let image = images[i]
         if (`${image.className}`.indexOf('loading') !== -1) {
             if (image.attributes['data-srcset']) {
-                if (`${window.location.host}`.indexOf("localhost") === -1 && !!config.cdn) {
-                    image.srcset = config.cdn + image.attributes['data-srcset'].textContent
+                if (`${window.location.host}`.indexOf("localhost") === -1 && !!window.hugoConfig.cdn) {
+                    image.srcset = window.hugoConfig.cdn + image.attributes['data-srcset'].textContent
                 } else {
                     image.srcset = image.attributes['data-srcset'].textContent
                 }
