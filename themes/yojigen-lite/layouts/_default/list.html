@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{ define "content" }}
 {{ $paginator := .Paginate (where (where .Data.Pages "Type" "post") "IsPage" true) }}
 
 {{ range $paginator.Pages }}
