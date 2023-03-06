@@ -19,7 +19,7 @@ keywords:
 
 >Gitea的首要目标是创建一个极易安装，运行非常快速，安装和使用体验良好的自建 Git 服务。我们采用Go作为后端语言，这使我们只要生成一个可执行程序即可。并且他还支持跨平台，支持 Linux, macOS 和 Windows 以及各种架构，除了x86，amd64，还包括 ARM 和 PowerPC。
 
-![](/post/24/1.jpg)
+![](1.jpg)
 
 因为是用Go开发，Gitea的主要程序就是一个原生的二进制可执行文件，而且Gitea可以使用SQLite当做数据库，这样它的资源占用比Gitlab这种Java开发需要虚拟机的要少的多，甚至他在官网上就写着用树莓派就能运行，这不是巧了吗。
 
@@ -151,7 +151,7 @@ sudo systemctl start gitea
 
 安装页面有中文，很简单，对着选就行了，我这里数据库选**SQLite**。
 
-![](https://image.yojigen.tech/pf1ZOfB.jpg)
+![](2.jpg)
 
 在这里可以修改端口，等下安装好之后，重启就是新的端口了。如果SSH端口不填的话就是关闭SSH功能，我的机器因为准备做内网穿透，所以不准备用SSH了，我就关了。
 
@@ -199,7 +199,7 @@ DEFAULT_THEME = test
 
 在默认的首页样式中，我们可以看到除了我们的网站名字以外，还有一些默认的文字和图案内容。比如`一款极易搭建的自助 Git 服务`，`易安装，跨平台，轻量级，开源化`等等。想要修改这些内容，你需要这样做。
 
-![](https://image.yojigen.tech/QmuIhv0.jpg)
+![](3.jpg)
 
 首先需要下载Gitea的源代码。
 
@@ -268,7 +268,7 @@ DEFAULT_THEME = test
 
 修改完成后，保存重启，就可以看到页面的样式已经改变啦。
 
-![](https://image.yojigen.tech/BUuwQrs.jpg)
+![](4.jpg)
 
 ## 结语
 

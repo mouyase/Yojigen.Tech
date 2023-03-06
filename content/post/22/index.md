@@ -15,7 +15,7 @@ keywords:
 ## 前言
 相信如果是经常使用电脑的小伙伴，尤其是从98，2000，XP，Win7一路用过来的老用户，一定对现在版本的Win10默认输入法有很多意见，比如**快捷键冲突**，**不能使用ctrl+shift切换输入法**，**为了玩Xbox修改了区域**和**语言结果默认输入法不是英语**等等，我之前也是饱受这些事情困扰，直到发现了今天的主角——TSFTool。
 
-<!--more-->
+
 
 ## 软件介绍
 
@@ -29,7 +29,7 @@ keywords:
 
 分流下载地址：[TSFTool 0.9.2.0.zip](https://pan.yojigen.tech/Software/Windows/TSFTool/TSFTool%200.9.2.0.zip "TSFTool 0.9.2.0.zip")
 
-![](9OWt1lg.png)
+![](1.jpg)
 
 ## 使用方式
 ### 设置默认输入法为美式键盘

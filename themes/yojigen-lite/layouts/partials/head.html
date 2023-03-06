@@ -6,5 +6,8 @@
     <meta name="keywords"
         content="{{ if gt .Keywords 0 }}{{ range .Keywords}}{{.}} {{end}}{{else}}{{ range .Site.Params.Keywords}}{{.}} {{end}}{{end}}">
     <link rel="stylesheet" href="/css/style.css">
+    <script>
+        const config = {{ .Site.Params }}
+    </script>
     <script src="/js/script.js"></script>
 </head>

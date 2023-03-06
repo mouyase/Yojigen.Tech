@@ -34,23 +34,23 @@ ln -s /usr/local/python3/bin/pip3 /usr/local/bin/pip3
 
 首先打开PyCharm的菜单栏的Tools --> Deployment --> Configure
 
-![](XUo0RvC.jpg)
+![](1.jpg)
 
 在里面添加一个新的服务器，我添加的服务器命名为`AliyunHK`，输入好服务器的登陆信息
 
-![](iUiG1da.jpg)
+![](2.jpg)
 
 然后到Mappings页面，添加一下文件夹对应的路径配置，我这里是将代码放到了服务器的`/opt/YojigenAPI`目录下
 
-![](UfWJdMt.jpg)
+![](3.jpg)
 
 最后到Excluded Paths页面，添加一个Local Path，忽略掉本地的venv虚拟环境文件夹
 
-![](gsKkfP3.jpg)
+![](4.jpg)
 
 最后点击PyCharm的菜单栏的Tools --> Deployment --> Upload to AliyunHK，就可以将代码推送到服务器上了
 
-![](4uo6nHc.jpg)
+![](5.jpg)
 
 ## 环境配置
 
@@ -122,7 +122,7 @@ venv/bin/python manage.py collectstatic --settings=YojigenAPI.settings.prod
 
 填写进去启动信息，保存即可
 
-![](Az8WYLa.jpg)
+![](6.jpg)
 
 最后就是大家都熟悉的Nginx配置反向代理了，反向代理到对应的域名上就可以了，不过这里有个坑，是关于静态文件的，宝塔默认的配置里包含了css和js的相关配置，要去给他删了才行
 

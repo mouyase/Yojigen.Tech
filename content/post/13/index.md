@@ -12,7 +12,7 @@ keywords:
   - TabLayout
 ---
 
-![](xXiN3hB.jpg)
+![](1.jpg)
 
 Cover: [仮想都歌姫 - BEEK@Pixiv](https://www.pixiv.net/artworks/58328867)
 
@@ -22,7 +22,7 @@ Cover: [仮想都歌姫 - BEEK@Pixiv](https://www.pixiv.net/artworks/58328867)
 
 ## 效果演示
 
-![](9yBPR3u.gif)
+![](2.gif)
 
 ## 开发过程
 整个效果实现需要三部分的工作，分别解决三个问题

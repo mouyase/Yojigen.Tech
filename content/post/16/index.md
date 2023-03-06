@@ -12,7 +12,7 @@ keywords:
   - 萌系
 ---
 
-![](caBahYd.jpg)
+![](1.jpg)
 
 正版购买地址: [https://www.dlsite.com/home/work/=/product_id/RJ262637.html](https://www.dlsite.com/home/work/=/product_id/RJ262637.html)
 

@@ -20,7 +20,7 @@ keywords:
 
 ## 简介
 
-![](avG3LaL.jpg)
+![](1.jpg)
 
 Cloudflare提供了免费的额度，每天10万次请求而不计算流量，简直就是用来反带的神器！
 
@@ -35,11 +35,11 @@ Cloudflare提供了免费的额度，每天10万次请求而不计算流量，�
 
 首先注册一个Cloudflare账号（估计大多数人都有），之后把你的域名使用Cloudflare解析（这个过程我觉得没必要详细讲了……）
 
-![](BowyKGa.jpg)
+![](2.jpg)
 
 然后打开你的域名管理页面，点击上面的Workers，再点击Launch Editor，进入脚本编辑器。
 
-![](DXfxiRt.jpg)
+![](3.jpg)
 
 在编辑器中，点击左侧的Add script，之后输入脚本的名称，随便填一个`pximg`就好，之后点击Confirm创建脚本。
 
@@ -63,16 +63,16 @@ addEventListener("fetch", event => {
 });
 ```
 
-![](VyEv846.jpg)
+![](4.jpg)
 
 就像这样，然后点击save保存脚本。然后点击左上角的Dashboard返回域名面板。
 
-![](ESwK55g.jpg)
+![](5.jpg)
 
 
 之后点击Add route，填写`https://你的域名/*`，并且下面选择刚刚创建的脚本，举例如图。
 
-![](dBgVtvx.jpg)
+![](6.jpg)
 
 再之后点击`new Workers dashboard`，根据提示创建一个二级域名。例如我的二级域名是`yojigen.workers.dev`，而刚刚创建的脚本的域名就是`pximg.yojigen.workers.dev`。
 

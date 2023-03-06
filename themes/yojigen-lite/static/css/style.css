@@ -337,7 +337,7 @@ h6 {
     }
 }
 
-.alert {
+.YT-Alert {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 0;
@@ -349,11 +349,29 @@ h6 {
     background-color: #eee
 }
 
-.alert-success {
+.YT-Alert-success {
     background-color: #4fd69c
 }
 
-.alert-success:before {
+.YT-Alert-success:before {
     content: "💚";
     margin-right: 8px;
+}
+
+.YT-Alert-warning:before {
+    content: "🧡";
+    margin-right: 8px;
+}
+
+.YT-Alert-warning {
+    background-color: #FC7C5F
+}
+
+.YT-Alert-error:before {
+    content: "❤";
+    margin-right: 8px;
+}
+
+.YT-Alert-error {
+    background-color: #F75676
 }

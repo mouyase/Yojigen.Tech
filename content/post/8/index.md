@@ -12,7 +12,7 @@ keywords:
   - 接口
 ---
 
->现在不能文中所述的固定值了，必须要计算真实时间
+{{<alert "现在不能文中所述的固定值了，必须要计算真实时间" warning>}}
 
 昨日听闻Pixiv的API接口升级，大部分第三方的APP都无法登陆了，之后也是一直在找解决方案，最后在[Mikusa的博客](https://www.himiku.com)里面发现了这个 [Iuuses](https://github.com/upbit/pixivpy/issues/83) ,并在里面找到了解决方案。
 
