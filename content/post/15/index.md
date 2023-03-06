@@ -5,6 +5,7 @@ categories:
   - 分享
 tags:
   - 生活
+  - 生存指南
 keywords: 
   - 炸鸡
   - 食谱

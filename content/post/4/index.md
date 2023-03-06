@@ -2,9 +2,10 @@
 title: 聊聊索尼WI-1000X蓝牙主动降噪耳机
 date: 2019-04-10 09:06:00
 categories: 
-  - 分享
+  - 科技
 tags:
   - 索尼
+  - 耳机
 keywords: 
   - 索尼
   - 降噪耳机

@@ -2,10 +2,11 @@
 title: 玉渊潭公园的一角
 date: 2019-04-07 09:00:00
 categories: 
-  - 其他
+  - 摄影
 tags:
   - 索尼
   - 摄影
+  - 樱花
 keywords: 
   - 调色
   - 索尼

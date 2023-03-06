@@ -2,9 +2,11 @@
 title: 拥抱开源，Chromium食用指南
 date: 2019-08-06 10:00:00
 categories: 
-  - 分享
+  - 科技
 tags:
   - 开源
+  - Chrome
+  - 浏览器
 keywords: 
   - 开源浏览器
   - Google

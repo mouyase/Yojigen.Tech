@@ -2,7 +2,7 @@
 title: 部署一个Django的项目
 date: 2020-01-21 23:30:00
 categories: 
-  - 技术
+  - 开发
 tags:
   - Python
 keywords: 

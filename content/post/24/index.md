@@ -2,7 +2,8 @@
 title: 给鸡蛋再找个篮子——使用Gitea搭建轻量级Git服务器
 date: 2022-05-24 19:23:00
 categories: 
-  - 技术
+  - 建站
+  - 科技
 tags:
   - Linux
   - 服务器

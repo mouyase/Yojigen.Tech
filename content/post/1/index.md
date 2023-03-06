@@ -2,9 +2,11 @@
 title: Amazon Corretto介绍及下载
 date: 2019-03-20 20:16:00
 categories: 
-  - 分享
+  - 开发
 tags:
   - Java
+  - JDK
+  - 开发环境
 keywords: 
   - Amazon
   - 甲骨文

@@ -2,9 +2,11 @@
 title: 为macOS打造一个防污染的本地DNS
 date: 2020-02-17 03:30:00
 categories: 
-  - 技术
+  - 分享
+  - 科技
 tags:
   - macOS
+  - DNS
 keywords: 
   - DNS
   - dnsmasq
@@ -25,7 +27,7 @@ Cover: [華如桃李 - 豆の素@Pixiv](https://www.pixiv.net/artworks/79500654)
 
 ## 效果演示
 
-![](wR0hyYc.png)
+![](2.jpg)
 
 ## 搭建过程
 
@@ -79,7 +81,7 @@ sudo brew services restart dnscrypt-proxy
 
 之后再把网络设置里的DNS地址修改为`127.0.0.1`，应用之后就可以享受无污染的DNS了。
 
-![](1gdXZUW.png)
+![](3.jpg)
 
 执行过上面修改hosts的指令的话建议执行这个清除hosts
 

@@ -5,6 +5,8 @@ categories:
   - 分享
 tags:
   - 免费资源
+  - SSH
+  - 服务器
 keywords: 
   - SSH
   - 服务器
