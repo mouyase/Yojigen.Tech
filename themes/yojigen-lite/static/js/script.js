@@ -6,7 +6,7 @@ const setImageSrcset = () => {
         if (`${image.className}`.indexOf('loading') !== -1) {
             if (image.attributes['data-srcset']) {
                 if (`${window.location.host}`.indexOf("localhost") === -1 && !!window.hugoConfig.cdn) {
-                    image.srcset = window.hugoConfig.cdn + image.attributes['data-srcset'].textContent
+                    image.srcset = `//${window.hugoConfig.cdn}${image.attributes['data-srcset'].textContent}`
                 } else {
                     image.srcset = image.attributes['data-srcset'].textContent
                 }
