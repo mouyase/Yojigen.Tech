@@ -2,7 +2,7 @@
     "baseURL": "/",
     "languageCode": "zh-cn",
     "title": "四次元科技",
-    "theme": "yojigen-lite",
+    "theme": "YojigenLite",
     "paginate": 5,
     "menu": {
         "main": [
@@ -56,6 +56,7 @@
             "text": "萌ICP备20229779号"
         },
         "initialYear": "2015",
+        "cdn": "cdn.yojigen.tech",
         "DisqusJS": {
             "shortname": "yojigen",
             "siteName": "四次元科技",
