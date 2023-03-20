@@ -56,9 +56,9 @@ const init = () => {
     }
     if (config.disqusjs) {
         loadScript('/libs/disqus/disqusjs.js', () => {
-            const disqusDiv = document.getElementById('disqusjs')
+            const disqusDiv = document.getElementById('disqus_thread')
             if (disqusDiv) {
-                const dsqjs = new DisqusJS({
+                const disqusjs = new DisqusJS({
                     shortname: config.disqusjs.shortname,
                     siteName: config.disqusjs.siteName,
                     identifier: document.location.pathname + document.location.search,
@@ -69,8 +69,8 @@ const init = () => {
                     admin: config.disqusjs.admin,
                     adminLabel: config.disqusjs.adminLabel,
                 });
+                disqusjs.render(disqusDiv);
             }
-            disqusjs.render(disqusDiv);
         })
         loadCss('/libs/disqus/disqusjs.css')
     }
