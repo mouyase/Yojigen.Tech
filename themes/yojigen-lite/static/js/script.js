@@ -56,7 +56,7 @@ const init = () => {
     }
     if (config.disqusjs) {
         loadScript('/libs/disqus/disqusjs.js', () => {
-            const disqusDiv = document.getElementById('disqus_thread')
+            const disqusDiv = document.getElementById('disqusjs')
             if (disqusDiv) {
                 const dsqjs = new DisqusJS({
                     shortname: config.disqusjs.shortname,
@@ -70,6 +70,7 @@ const init = () => {
                     adminLabel: config.disqusjs.adminLabel,
                 });
             }
+            disqusjs.render(disqusDiv);
         })
         loadCss('/libs/disqus/disqusjs.css')
     }
