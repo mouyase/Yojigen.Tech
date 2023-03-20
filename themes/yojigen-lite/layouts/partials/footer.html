@@ -1,5 +1,6 @@
 <div id="footer">
-    <a href="{{.Site.Params.ICP.Url}}" target="_blank">{{.Site.Params.ICP.Text}}</a> | Copyright ©
-    {{.Site.Params.InitialYear}}-2023 <a href="{{ .Site.BaseURL | relLangURL }}">Yojigen.Tech</a> | Powered by <a
+    {{if .Site.Params.ICP }}<a href="{{.Site.Params.ICP.Url}}" target="_blank">{{.Site.Params.ICP.Text}}</a> |
+    {{end}}{{if .Site.Params.InitialYear }}Copyright ©
+    {{.Site.Params.InitialYear}}-2023 {{end}}<a href="{{ .Site.BaseURL | relLangURL }}">Yojigen.Tech</a> | Powered by <a
         href="https://gohugo.io/" style="font-weight: bold;">Hugo</a>
 </div>

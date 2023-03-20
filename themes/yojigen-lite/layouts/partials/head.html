@@ -5,9 +5,11 @@
         {{ .Site.Title }}{{ end }}{{ else }}{{ .Site.Title }}{{ end }}</title>
     <meta name="keywords"
         content="{{ if gt .Keywords 0 }}{{ range .Keywords}}{{.}} {{end}}{{else}}{{ range .Site.Params.Keywords}}{{.}} {{end}}{{end}}">
+    {{ if .Site.Params }}
     <script>
         window.hugoConfig = {{ .Site.Params }}
     </script>
+    {{end}}
     <link rel="stylesheet" href="{{ if .Site.Params.CDN }}//{{.Site.Params.CDN}}{{ end }}/css/style.css">
     <script src="{{ if .Site.Params.CDN }}//{{.Site.Params.CDN}}{{ end }}/js/script.js"></script>
 </head>
