@@ -1,3 +1,5 @@
+const config = window.hugoConfig
+
 const setImageSrcset = () => {
     const gif = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
     let images = document.getElementsByTagName('img')
@@ -5,8 +7,8 @@ const setImageSrcset = () => {
         let image = images[i]
         if (`${image.className}`.indexOf('loading') !== -1) {
             if (image.attributes['data-srcset']) {
-                if (`${window.location.host}`.indexOf("localhost") === -1 && !!window.hugoConfig.cdn) {
-                    image.srcset = `//${window.hugoConfig.cdn}${image.attributes['data-srcset'].textContent}`
+                if (`${window.location.host}`.indexOf("localhost") === -1 && !!config.cdn) {
+                    image.srcset = `//${config.cdn}${image.attributes['data-srcset'].textContent}`
                 } else {
                     image.srcset = image.attributes['data-srcset'].textContent
                 }
@@ -49,24 +51,28 @@ const loadCss = (url, cb) => {
 
 const init = () => {
     setImageSrcset()
-    loadScript('https://hm.baidu.com/hm.js?d3ff7ea286266918b251a247df20c5a9')
-    loadScript('/libs/disqus/disqusjs.js', () => {
-        const disqusDiv = document.getElementById('disqus_thread')
-        if (disqusDiv) {
-            const dsqjs = new DisqusJS({
-                shortname: 'yojigen',
-                siteName: '四次元科技',
-                identifier: document.location.pathname + document.location.search,
-                url: document.location.origin + document.location.pathname + document.location.search,
-                title: document.title,
-                api: 'https://disqus.skk.moe/disqus/',
-                apikey: 'X6iJtToKn7ac9o1j0bcpLt4jAGyatmmcNksGir9CJp3VTOgjIH3WMIGtti240Ktd',
-                admin: 'mouyase',
-                adminLabel: '博主'
-            });
-        }
-    })
-    loadCss('/libs/disqus/disqusjs.css')
+    if (config.baiduhm) {
+        loadScript(`https://hm.baidu.com/hm.js?${config.baiduhm}`)
+    }
+    if (config.disqusjs) {
+        loadScript('/libs/disqus/disqusjs.js', () => {
+            const disqusDiv = document.getElementById('disqus_thread')
+            if (disqusDiv) {
+                const dsqjs = new DisqusJS({
+                    shortname: config.disqusjs.shortname,
+                    siteName: config.disqusjs.siteName,
+                    identifier: document.location.pathname + document.location.search,
+                    url: document.location.origin + document.location.pathname + document.location.search,
+                    title: document.title,
+                    api: config.disqusjs.api,
+                    apikey: config.disqusjs.apikey,
+                    admin: config.disqusjs.admin,
+                    adminLabel: config.disqusjs.adminLabel,
+                });
+            }
+        })
+        loadCss('/libs/disqus/disqusjs.css')
+    }
 }
 
 window.onload = () => {
