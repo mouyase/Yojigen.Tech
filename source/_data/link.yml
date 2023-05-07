@@ -1,0 +1,19 @@
+- class_name: 友情链接
+  class_desc: 互联网上的小伙伴
+  link_list:
+    - name: 超能小紫
+      link: https://www.mokeyjay.com/
+      avatar: https://www.mokeyjay.com/headimg.png
+      descr: Web全沾 // 专业学渣 // 贰刺猿 // 永远还不完信用卡
+    - name: 初之音
+      link: https://www.himiku.com/
+      avatar: https://cdn.mikusa.cn/avatar/2fc4cf3560ff5a1cc64ea029896ab235?s=500
+      descr: 聆听心中最初的声音
+    - name: GamerNoTitle
+      link: https://bili33.top/
+      avatar: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png
+      descr: TECH OTAKAS SAVE THE WORLD
+    - name: 惶心博客
+      link: https://huangxin.dev/
+      avatar: https://images.hxis.top/avatar/latest.jpg
+      descr: 「时间 是让人措不及防的东西」
