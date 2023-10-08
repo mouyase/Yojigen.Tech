@@ -6,6 +6,8 @@
             <%- partial('partial/header') %>
         <% } %>
         <%- body %>
-        <%- partial('partial/footer') %>
+        <% if (page.path !== '404.html') { %>
+            <%- partial('partial/footer') %>
+        <% } %>
     </body>
 </html>
