@@ -32,5 +32,3 @@ date: 2015-04-01T00:00:00+08:00
 ## 联系方式
 
 Email: i#Yojigen.Tech (把 # 换成 @)
-
-Telegram：[mouyase](https://t.me/mouyase)
