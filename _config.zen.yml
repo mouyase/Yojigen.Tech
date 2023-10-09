@@ -1,8 +1,8 @@
-favicon: head.jpg
+favicon: favicon.jpg
 
 menu:
   首页: /
   关于: about.html
 
 copyright:
-  name: 四次元科技
+  name: Yojigen.Tech
