@@ -6,3 +6,8 @@ menu:
 
 copyright:
   name: Yojigen.Tech
+
+twikoo:
+  enable: true
+  envId : https://twikoo.yojigen.tech
+  lang: zh-CN
