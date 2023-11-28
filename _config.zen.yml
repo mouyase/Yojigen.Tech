@@ -9,5 +9,5 @@ copyright:
 
 twikoo:
   enable: true
-  envId : https://twikoo.yojigen.tech
+  envId : https://twikoo.yojigen.tech/.netlify/functions/twikoo
   lang: zh-CN
