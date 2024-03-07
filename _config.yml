@@ -107,3 +107,7 @@ deploy:
 marked:
   prependRoot: true
   postAsset: true
+
+feed:
+  type: atom
+  path: atom.xml

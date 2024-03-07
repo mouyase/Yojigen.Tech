@@ -3,6 +3,7 @@ favicon: favicon.jpg
 menu:
   首页: /
   关于: about.html
+  RSS: atom.xml
 
 copyright:
   name: Yojigen.Tech
