@@ -11,3 +11,13 @@ twikoo:
   enable: true
   envId : https://twikoo.yojigen.tech/.netlify/functions/twikoo
   lang: zh-CN
+
+friends:
+  - name: 超能小紫
+    url: https://mok.moe/
+  - name: 初之音
+    url: https://www.himiku.com/
+  - name: GamerNoTitle
+    url: https://bili33.top/
+  - name: 惶心博客
+    url: https://huangxin.dev/
