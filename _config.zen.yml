@@ -9,9 +9,13 @@ copyright:
   name: Yojigen.Tech
 
 twikoo:
-  enable: true
+  enable: false
   envId : https://twikoo.yojigen.tech/.netlify/functions/twikoo
   lang: zh-CN
+
+beaudar:
+  enable: true
+  repo : mouyase/Yojigen.Tech
 
 friends:
   - name: 超能小紫
