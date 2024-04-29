@@ -16,6 +16,7 @@ twikoo:
 beaudar:
   enable: true
   repo : mouyase/Yojigen.Tech
+  branch: main
 
 friends:
   - name: 超能小紫
