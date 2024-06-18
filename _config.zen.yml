@@ -2,6 +2,7 @@ favicon: favicon.jpg
 
 menu:
   首页: /
+  游戏补完: /game
   关于: about.html
   RSS: atom.xml
 
